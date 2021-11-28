@@ -1,5 +1,8 @@
 <?php
 $nama ="riko ";
+
+echo "hallo, selamat datang $nama </br>";
+echo 'hallo, selamat datang $nama ';
 ?>
 
 
