@@ -1,7 +1,8 @@
 <?php
-$nama ="riko ";
+$nama_depan ="riko ";
+$nama_belakang = "dwi";
 
-echo "hallo, selamat datang $nama </br>";
+echo "hallo, selamat datang $nama_depan </br>";
 echo 'hallo, selamat datang $nama ';
 ?>
 
@@ -16,7 +17,7 @@ echo 'hallo, selamat datang $nama ';
 </head>
 <body>
     <h1>
-        selamat datang <?php echo $nama; ?>
+        selamat datang <?php echo $nama_depan . " " . $nama_belakang; ?>
     </h1>
     <?php echo "<h1>selamat datang, nama saya riko dwi</h1>"; ?>
 </body>
