@@ -10,5 +10,6 @@
     <h1>
         selamat datang <?php echo "nama saya riko dwi" ?>
     </h1>
+    <?php echo "<h1>selamat datang, nama saya riko dwi</h1>"; ?>
 </body>
 </html>
