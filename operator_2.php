@@ -28,4 +28,51 @@ $e =20;
 $e .=5;
 echo $e;
 echo "<br>";
+echo "<br>";
+echo "<br>";
+
+echo "operator logika :";
+echo "<br>";
+echo "<br>";
+var_dump(1 < 5) ;
+echo "<br>";
+
+var_dump(1 > 5) ;
+echo "<br>";
+
+var_dump(1 <= 5) ;
+echo "<br>";
+
+var_dump(1 >= 5) ;
+echo "<br>";
+
+var_dump(1 == 5) ;
+echo "<br>";
+
+var_dump(1 != 5) ;
+echo "<br>";
+echo "<br>";
+echo "<br>";
+
+echo "operator identitas :";
+echo "<br>";
+echo "<br>";
+var_dump(1 === "1");
+echo "<br>";
+var_dump(1 !== "1");
+echo "<br>";
+echo "<br>";
+echo "<br>";
+
+echo "operator logika :";
+echo "<br>";
+echo "<br>";
+$x = 10;
+var_dump($x < 10 && $x % 2 == 0);
+echo "<br>";
+$x = 10;
+var_dump($x < 10 || $x % 2 == 0);
+
+
+
 ?>
