@@ -8,10 +8,10 @@
     <h2>membuat perulangan tabel</h2>
     <table border="1" cellpadding="10" cellspacing="0">
         <?php
-        for ($b = 1; $b <= 3; $b++) {
+        for ($b = 1; $b <= 10; $b++) {
         echo "<rt>";
 
-        for ($k = 1; $k <= 5; $k++){
+        for ($k = 1; $k <= 8; $k++){
         echo "<td> $b,$k </td>";
         }
         echo "</tr>";
